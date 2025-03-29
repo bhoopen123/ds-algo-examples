@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32106.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_UnionFind", "DS_Examples\001_UnionFind.csproj", "{52112B0F-2A08-456A-8B82-F931F75286A7}"
 EndProject
@@ -48,6 +48,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_ModularArithmetics", "001_ModularArithmetics\001_ModularArithmetics.csproj", "{86787F95-9D98-4D7B-9D71-5199EDC27330}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011_BitManipulation", "011_BitManipulation\011_BitManipulation.csproj", "{66E677E6-A60A-4529-8A48-142EC14026BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012_ExpenseSettlement", "012_ExpenseSettlement\012_ExpenseSettlement.csproj", "{A250681B-3BCE-472D-B92E-A176F3852A5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{66E677E6-A60A-4529-8A48-142EC14026BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66E677E6-A60A-4529-8A48-142EC14026BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66E677E6-A60A-4529-8A48-142EC14026BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A250681B-3BCE-472D-B92E-A176F3852A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A250681B-3BCE-472D-B92E-A176F3852A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A250681B-3BCE-472D-B92E-A176F3852A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A250681B-3BCE-472D-B92E-A176F3852A5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
