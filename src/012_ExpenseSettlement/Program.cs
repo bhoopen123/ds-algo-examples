@@ -25,6 +25,15 @@ IEnumerable<ExpenseSharedBy> expenseSharedBies = new List<ExpenseSharedBy>
 
 var transactions = SettleExpenses(expensePaidBies, expenseSharedBies, new RoundTripSettlementStrategy());
 
+Console.WriteLine("Transactions using RoundTrip");
+foreach (var trans in transactions)
+{
+    Console.WriteLine(trans.ToString());
+}
+
+Console.WriteLine();
+transactions = SettleExpenses(expensePaidBies, expenseSharedBies, new GreedySettlementStrategy());
+Console.WriteLine("Transactions using Greedy");
 foreach (var trans in transactions)
 {
     Console.WriteLine(trans.ToString());
